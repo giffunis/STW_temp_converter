@@ -3,8 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <title>Convertidor de temperatura con Javascript</title>
+
+  <!-- CSS templates -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/global.css">
+  <!-- Scripts -->
+  <script src="js/converter.js" charset="utf-8"></script>
 </head>
 <body>
+  <h1>Convertidor de temperatura</h1>
+
+  <table>
+    <tr>
+      <th>Introduzca la temperatura (Ejemplos: 43F, 20C, -5.4C)</th>
+      <td><input id="input_temp" autofocus onchange="converter();" placeholder="30C" size="20"></td>
+    </tr>
+    <tr>
+      <th>Temperatura convertida:</th>
+      <td><span class="output" id="output_temp"></span></td>
+    </tr>
+  </table>
 
 </body>
 </html>
