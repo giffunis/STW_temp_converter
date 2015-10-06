@@ -13,16 +13,16 @@ function converter(){
 
     if(unidad_medida == 'C' || unidad_medida == 'c'){
         salida = valor * (9/5) + 32;
-        salida = salida.toFixed(1) + "Farenheit";
+        salida = salida.toFixed(1) + " Farenheit";
     }
     else{
       salida = (valor - 32) * (5/9);
-      salida = salida.toFixed(1) + "Centígrados";
+      salida = salida.toFixed(1) + " Centígrados";
     }
     output_temp.innerHTML = salida;
   } //  si existe aux
   else{ //  Si no existe aux
-    output_temp.innerHTML = "Error, escríbelo correctamente: -5.2C";
+    output_temp.innerHTML = "ERROR! Try something like '-4.2C' instead";
   } //  Si no existe aux
 
 } //  function converter()
