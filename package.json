@@ -1,0 +1,22 @@
+{
+  "name": "temp_converter",
+  "version": "0.0.1",
+  "description": "Convertidor de temperatura con Javascript",
+  "main": "converter.js",
+  "scripts": {
+    "test": "open test/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giffunis/STW_temp_converter.git"
+  },
+  "keywords": [
+    "regexp"
+  ],
+  "author": "José Saúl Giffuni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giffunis/STW_temp_converter/issues"
+  },
+  "homepage": "https://github.com/giffunis/STW_temp_converter#readme"
+}
