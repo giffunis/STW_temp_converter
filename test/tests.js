@@ -16,9 +16,9 @@ suite('temperature', function() {
         converter();
         assert.match(output_temp.innerHTML, /ERROR/);
     });
-    test('-25C = -13.0 Farenheit' function(){
-      input_temp.value = "-25C";
-      converter();
-      assert.deepEqual(output_temp.innerHTML, "-13.0 Farenheit");
+    test('-25C = -13.0 Farenheit', function(){
+        input_temp.value = "-25C";
+        converter();
+        assert.deepEqual(output_temp.innerHTML, "-13.0 Farenheit");
     });
 });
