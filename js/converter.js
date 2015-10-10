@@ -4,7 +4,9 @@ function converter(){
   var entrada = input_temp.value;
 
   var salida;
-  var regexp = /([-+]?\d+(?:\.\d*)?)\s*([fFcC])/;
+  // var regexp = /([-+]?\d+(?:\.\d*)?)\s*([fFcC])/;
+  var regexp = /([+-]?\d+(?:\.\d*)?(?:\s*[e]\d+)?)\s*([fFcC])/;
+
   var aux = entrada.match(regexp);
 
   if(aux){  //  si existe aux
