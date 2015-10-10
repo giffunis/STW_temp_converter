@@ -21,4 +21,9 @@ suite('temperature', function() {
         converter();
         assert.deepEqual(output_temp.innerHTML, "-13.0 Farenheit");
     });
+    test('3.2e1F = 0.0 Centígrados', function(){
+        input_temp.value = "3.2e1F";
+        converter();
+        assert.deepEqual(output_temp.innerHTML, "0.0 Centígrados");
+    });
 });
