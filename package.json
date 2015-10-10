@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/giffunis/STW_temp_converter#readme",
   "devDependencies": {
-    "mocha": "latest",
-    "chai": "^3.3.0"
+    "chai": "^3.3.0",
+    "gulp": "^3.9.0",
+    "mocha": "latest"
   }
 }
