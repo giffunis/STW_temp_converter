@@ -1,0 +1,1 @@
+"use strict";function converter(){var e,t=input_temp.value,i=/([+-]?\d+(?:\.\d*)?(?:\s*[e]\d+)?)\s*([fFcC])/,n=t.match(i);if(n){var r=parseFloat(n[1]),a=n[2];"C"==a||"c"==a?(e=1.8*r+32,e=e.toFixed(1)+" Farenheit"):(e=(r-32)*(5/9),e=e.toFixed(1)+" Centígrados"),output_temp.innerHTML=e}else output_temp.innerHTML="ERROR! Try something like '-4.2C' instead"}
